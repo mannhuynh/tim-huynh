@@ -1,0 +1,47 @@
+
+/***************************TAG SELECTORS**********************/
+
+body {
+    background-color: #afb4b2;
+}
+hr {
+    
+    width: 10%;
+    border-style: dotted none none;
+    border-color: rgb(105, 105, 105);
+    border-width: 6px;
+    
+}
+h1 {
+    color: rgb(83, 81, 81);
+}
+h2 {
+    color:  rgb(95, 92, 92);
+}
+h3{
+    color: rgb(112, 108, 108);
+}
+h4 {
+    color: rgb(73, 71, 71);
+}
+
+/***************************ID SELECTORS**********************/
+
+#css_syntax {
+    color: rgb(124, 90, 90);
+}
+#css_prio{
+    color: rgb(64, 64, 102);
+
+}
+
+
+/***************************CLASS SELECTORS**********************/
+
+.CGILogo {
+    border-radius: 100%; 
+}
+.CGIredlogo:hover {
+    border-radius: 100%;
+}
+

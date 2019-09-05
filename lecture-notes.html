@@ -13,6 +13,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
+
+    <link rel="stylesheet" href="CSS\styles.css">
+
 </head>
 
 <body>
@@ -21,26 +24,60 @@
         <![endif]-->
 
     <script src="" async defer></script>
+
+
+
     <a href="index.html">
-        <img src="CGIFederalLogo.jpg" alt="Home Page" style="width:100px; height:50px;">
+        <img class="CGIredlogo" src="CGIFederalLogo.jpg" alt="Home Page" style="width:100px; height:50px;">
     </a>
 
+
+
+    <h2>Useful Links</h2>
+    <ul>
+        <li> <a href="https://devdocs.io/">devdocs.io</a> combines multiple API documentations in a fast, organized, and
+            searchable interface.</li>
+        <li><a href="https://www.appbrewery.co/p/web-development-course-resources/">Web Development Course Resources
+                List
+            </a> from the App Berwery.</li>
+
+        <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference </a> by MDN includes:
+            <br>
+            <ul>
+                <li>Basic rule syntax</li>
+                <li>Keyword Index</li>
+                <li>Selectors</li>
+                <li>Concepts</li>
+                <li>DOM-CSS/CSSOM</li>
+            </ul>
+        </li>
+
+
+
+
+    </ul>
+    <hr>
+
+    <h1>HTML - Hypertext Markup Language</h1>
     <p>
-        <u>HEADER:</u>
-        <h1> h1 Header</h1>
-        <h2>h2 Header</h2>
-        <h3>h3 Header</h3>
-        <h4>h4 Header</h4>
-        <h5>h5 Header</h5>
-        <h6>h6 Header</h6>
+        <u><b style="color:rgb(74, 62, 143)"> HEADER: </b></u>
+        <ul>
+            <h1> h1 Header</h1>
+            <h2>h2 Header</h2>
+            <h3>h3 Header</h3>
+            <h4>h4 Header</h4>
+            <h5>h5 Header</h5>
+            <h6>h6 Header</h6>
+        </ul>
     </p>
     <hr>
-    <p>
+   <ul>
         <em>This is Emphasis &ltem&gt tag</em> <br>
         <i> This is Italicize &lti&gt tag</i> <br>
         <b> This is Bold &ltb&gt tag</b> <br>
         <strong> This is Strong &ltstrong&gt tag</strong> <br>
-    </p>
+    </ul>
     <hr>
 
     <p>
@@ -60,8 +97,53 @@
     <h3>Form</h3>
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">Form MDN</a>
 
+    <hr>
+    <hr>
 
+    <h1>CSS - Cascading Style Sheet</h1>
+    <h4 id="css_syntax">selector { property: value; }</h4>
 
+    <h4 id="css_prio">The priority of CSS in HTML is INLINE -> INTERNAL -> EXTERNAL</h4> <br>
+    <p>
+        <h3>Inline CSS</h3>
+        Use "style" property inside a specific tag in the body of the HTML file
+    </p>
+    <hr>
+    <p>
+        <h3>Internal CSS</h3>
+        Use "style" tag in head section of the HTML file
+    </p>
+    <hr>
+    <p>
+        <h3>External CSS</h3>
+        Use "link" tag to connect external CSS file (include its location) to HTML file
+    </p>
+    <hr>
+
+    <h3>Changing Color</h3>
+    <p class="change-color-notes">
+        <a href="https://developer.mozilla.org/vi/docs/Web/CSS/background-color">background-color MDN</a>
+        <br>
+        <a href="https://colorhunt.co">Color Hunt</a> is a good website for picking color. <br>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value">Color keywords </a>is also helpful for
+        using keyword instead of Hex number. <br>
+        <a href="https://www.w3schools.com/cssref/css_default_values.asp">Default CSS Values</a> give the value of each
+        HTML tag that can apply specific values. <br>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-style">Border Style CSS MDN</a> helps design
+        the style of border. <br>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color">Change text color</a> <br>
+
+    </p>
+    <hr>
+    <p>
+        <h3>Class vs Id Selector</h3>
+        - Class can be named more than once while Id is unique. <br>
+        - Class is called by a dot '.', Id is called by a hashtag '#'. <br>
+        - Any HTML elements (tags) can have more than one Class but only one Id. <br>
+        - It is better to use Class as Selector than Id. <br>
+        - <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Psuedo Classes </a> is very useful. <br>
+
+    </p>
 
 
 
