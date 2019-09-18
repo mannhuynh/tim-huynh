@@ -3,13 +3,16 @@
 
 body {
     background-color: #afb4b2;
+    margin-left: 3%;
+    padding-left: 3%;
 }
 hr {
     
     width: 10%;
-    border-style: dotted none none;
+    border-style: dashed none none;
     border-color: rgb(105, 105, 105);
-    border-width: 6px;
+    border-width: 3px;
+    margin-left: 3%;
     
 }
 h1 {
